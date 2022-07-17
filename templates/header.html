@@ -1,0 +1,31 @@
+ <!--Header Section Start-->
+ <header class="header-area animated">
+    <div class="container">
+      <div class="row">
+        <div
+          class="col-lg-12 d-flex align-items-center justify-content-between"
+        >
+          <div class="logo-area">
+            <a href="#"
+              ><img src="{{ url_for('static', filename='assets/img/mini.svg') }}" alt="logo"
+            /></a>
+          </div>
+          <div
+            class="menu-area d-flex justify-content-end align-items-center"
+          >
+            <div class="mobile-menu"></div>
+            <div class="main-menu">
+              <nav class="menu-box">
+                <ul class="nav-menu" id="mobile-menu">
+                  <li><a  href="{{ url_for('home')}}">Home</a></li>
+                  <li><a href="{{ url_for('bot')}}">Bot</a></li>
+                  <li><a  href="{{ url_for('contact')}}">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--Header Section End-->
